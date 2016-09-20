@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3EA03C71D91038200758FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA03C61D91038200758FB4 /* main.m */; };
+		D3EA03CA1D91038200758FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA03C91D91038200758FB4 /* AppDelegate.m */; };
+		D3EA03CD1D91038200758FB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA03CC1D91038200758FB4 /* ViewController.m */; };
+		D3EA03D01D91038200758FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EA03CE1D91038200758FB4 /* Main.storyboard */; };
+		D3EA03D21D91038300758FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EA03D11D91038300758FB4 /* Assets.xcassets */; };
+		D3EA03D51D91038300758FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EA03D31D91038300758FB4 /* LaunchScreen.storyboard */; };
+		D3EA03E01D91038300758FB4 /* IHFTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA03DF1D91038300758FB4 /* IHFTabBarControllerTests.m */; };
+		D3EA03EB1D91038300758FB4 /* IHFTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA03EA1D91038300758FB4 /* IHFTabBarControllerUITests.m */; };
+		D3EA04021D9103A000758FB4 /* IHFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA03FA1D9103A000758FB4 /* IHFTabBar.m */; };
+		D3EA04031D9103A000758FB4 /* IHFTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA03FC1D9103A000758FB4 /* IHFTabBarBadge.m */; };
+		D3EA04041D9103A000758FB4 /* IHFTabBarBadge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EA03FD1D9103A000758FB4 /* IHFTabBarBadge@2x.png */; };
+		D3EA04051D9103A000758FB4 /* IHFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA03FF1D9103A000758FB4 /* IHFTabBarController.m */; };
+		D3EA04061D9103A000758FB4 /* IHFTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EA04011D9103A000758FB4 /* IHFTabBarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3EA03DC1D91038300758FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EA03BA1D91038200758FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3EA03C11D91038200758FB4;
+			remoteInfo = IHFTabBarController;
+		};
+		D3EA03E71D91038300758FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3EA03BA1D91038200758FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3EA03C11D91038200758FB4;
+			remoteInfo = IHFTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3EA03C21D91038200758FB4 /* IHFTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHFTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EA03C61D91038200758FB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3EA03C81D91038200758FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3EA03C91D91038200758FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3EA03CB1D91038200758FB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3EA03CC1D91038200758FB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3EA03CF1D91038200758FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3EA03D11D91038300758FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3EA03D41D91038300758FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3EA03D61D91038300758FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EA03DB1D91038300758FB4 /* IHFTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHFTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EA03DF1D91038300758FB4 /* IHFTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHFTabBarControllerTests.m; sourceTree = "<group>"; };
+		D3EA03E11D91038300758FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EA03E61D91038300758FB4 /* IHFTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHFTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EA03EA1D91038300758FB4 /* IHFTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IHFTabBarControllerUITests.m; sourceTree = "<group>"; };
+		D3EA03EC1D91038300758FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EA03F91D9103A000758FB4 /* IHFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFTabBar.h; sourceTree = "<group>"; };
+		D3EA03FA1D9103A000758FB4 /* IHFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFTabBar.m; sourceTree = "<group>"; };
+		D3EA03FB1D9103A000758FB4 /* IHFTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFTabBarBadge.h; sourceTree = "<group>"; };
+		D3EA03FC1D9103A000758FB4 /* IHFTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFTabBarBadge.m; sourceTree = "<group>"; };
+		D3EA03FD1D9103A000758FB4 /* IHFTabBarBadge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IHFTabBarBadge@2x.png"; sourceTree = "<group>"; };
+		D3EA03FE1D9103A000758FB4 /* IHFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFTabBarController.h; sourceTree = "<group>"; };
+		D3EA03FF1D9103A000758FB4 /* IHFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFTabBarController.m; sourceTree = "<group>"; };
+		D3EA04001D9103A000758FB4 /* IHFTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFTabBarItem.h; sourceTree = "<group>"; };
+		D3EA04011D9103A000758FB4 /* IHFTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFTabBarItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3EA03BF1D91038200758FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EA03D81D91038300758FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EA03E31D91038300758FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3EA03B91D91038200758FB4 = {
+			isa = PBXGroup;
+			children = (
+				D3EA03C41D91038200758FB4 /* IHFTabBarController */,
+				D3EA03DE1D91038300758FB4 /* IHFTabBarControllerTests */,
+				D3EA03E91D91038300758FB4 /* IHFTabBarControllerUITests */,
+				D3EA03C31D91038200758FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3EA03C31D91038200758FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3EA03C21D91038200758FB4 /* IHFTabBarController.app */,
+				D3EA03DB1D91038300758FB4 /* IHFTabBarControllerTests.xctest */,
+				D3EA03E61D91038300758FB4 /* IHFTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3EA03C41D91038200758FB4 /* IHFTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D3EA03F81D9103A000758FB4 /* IHFTabBarController */,
+				D3EA03C81D91038200758FB4 /* AppDelegate.h */,
+				D3EA03C91D91038200758FB4 /* AppDelegate.m */,
+				D3EA03CB1D91038200758FB4 /* ViewController.h */,
+				D3EA03CC1D91038200758FB4 /* ViewController.m */,
+				D3EA03CE1D91038200758FB4 /* Main.storyboard */,
+				D3EA03D11D91038300758FB4 /* Assets.xcassets */,
+				D3EA03D31D91038300758FB4 /* LaunchScreen.storyboard */,
+				D3EA03D61D91038300758FB4 /* Info.plist */,
+				D3EA03C51D91038200758FB4 /* Supporting Files */,
+			);
+			path = IHFTabBarController;
+			sourceTree = "<group>";
+		};
+		D3EA03C51D91038200758FB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EA03C61D91038200758FB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3EA03DE1D91038300758FB4 /* IHFTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3EA03DF1D91038300758FB4 /* IHFTabBarControllerTests.m */,
+				D3EA03E11D91038300758FB4 /* Info.plist */,
+			);
+			path = IHFTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		D3EA03E91D91038300758FB4 /* IHFTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3EA03EA1D91038300758FB4 /* IHFTabBarControllerUITests.m */,
+				D3EA03EC1D91038300758FB4 /* Info.plist */,
+			);
+			path = IHFTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		D3EA03F81D9103A000758FB4 /* IHFTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D3EA03F91D9103A000758FB4 /* IHFTabBar.h */,
+				D3EA03FA1D9103A000758FB4 /* IHFTabBar.m */,
+				D3EA03FB1D9103A000758FB4 /* IHFTabBarBadge.h */,
+				D3EA03FC1D9103A000758FB4 /* IHFTabBarBadge.m */,
+				D3EA03FD1D9103A000758FB4 /* IHFTabBarBadge@2x.png */,
+				D3EA03FE1D9103A000758FB4 /* IHFTabBarController.h */,
+				D3EA03FF1D9103A000758FB4 /* IHFTabBarController.m */,
+				D3EA04001D9103A000758FB4 /* IHFTabBarItem.h */,
+				D3EA04011D9103A000758FB4 /* IHFTabBarItem.m */,
+			);
+			path = IHFTabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3EA03C11D91038200758FB4 /* IHFTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EA03EF1D91038300758FB4 /* Build configuration list for PBXNativeTarget "IHFTabBarController" */;
+			buildPhases = (
+				D3EA03BE1D91038200758FB4 /* Sources */,
+				D3EA03BF1D91038200758FB4 /* Frameworks */,
+				D3EA03C01D91038200758FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHFTabBarController;
+			productName = IHFTabBarController;
+			productReference = D3EA03C21D91038200758FB4 /* IHFTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3EA03DA1D91038300758FB4 /* IHFTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EA03F21D91038300758FB4 /* Build configuration list for PBXNativeTarget "IHFTabBarControllerTests" */;
+			buildPhases = (
+				D3EA03D71D91038300758FB4 /* Sources */,
+				D3EA03D81D91038300758FB4 /* Frameworks */,
+				D3EA03D91D91038300758FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3EA03DD1D91038300758FB4 /* PBXTargetDependency */,
+			);
+			name = IHFTabBarControllerTests;
+			productName = IHFTabBarControllerTests;
+			productReference = D3EA03DB1D91038300758FB4 /* IHFTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3EA03E51D91038300758FB4 /* IHFTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3EA03F51D91038300758FB4 /* Build configuration list for PBXNativeTarget "IHFTabBarControllerUITests" */;
+			buildPhases = (
+				D3EA03E21D91038300758FB4 /* Sources */,
+				D3EA03E31D91038300758FB4 /* Frameworks */,
+				D3EA03E41D91038300758FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3EA03E81D91038300758FB4 /* PBXTargetDependency */,
+			);
+			name = IHFTabBarControllerUITests;
+			productName = IHFTabBarControllerUITests;
+			productReference = D3EA03E61D91038300758FB4 /* IHFTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3EA03BA1D91038200758FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cjson;
+				TargetAttributes = {
+					D3EA03C11D91038200758FB4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D3EA03DA1D91038300758FB4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D3EA03C11D91038200758FB4;
+					};
+					D3EA03E51D91038300758FB4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D3EA03C11D91038200758FB4;
+					};
+				};
+			};
+			buildConfigurationList = D3EA03BD1D91038200758FB4 /* Build configuration list for PBXProject "IHFTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3EA03B91D91038200758FB4;
+			productRefGroup = D3EA03C31D91038200758FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3EA03C11D91038200758FB4 /* IHFTabBarController */,
+				D3EA03DA1D91038300758FB4 /* IHFTabBarControllerTests */,
+				D3EA03E51D91038300758FB4 /* IHFTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3EA03C01D91038200758FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EA04041D9103A000758FB4 /* IHFTabBarBadge@2x.png in Resources */,
+				D3EA03D51D91038300758FB4 /* LaunchScreen.storyboard in Resources */,
+				D3EA03D21D91038300758FB4 /* Assets.xcassets in Resources */,
+				D3EA03D01D91038200758FB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EA03D91D91038300758FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EA03E41D91038300758FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3EA03BE1D91038200758FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EA04031D9103A000758FB4 /* IHFTabBarBadge.m in Sources */,
+				D3EA03CD1D91038200758FB4 /* ViewController.m in Sources */,
+				D3EA04021D9103A000758FB4 /* IHFTabBar.m in Sources */,
+				D3EA04061D9103A000758FB4 /* IHFTabBarItem.m in Sources */,
+				D3EA04051D9103A000758FB4 /* IHFTabBarController.m in Sources */,
+				D3EA03CA1D91038200758FB4 /* AppDelegate.m in Sources */,
+				D3EA03C71D91038200758FB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EA03D71D91038300758FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EA03E01D91038300758FB4 /* IHFTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3EA03E21D91038300758FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3EA03EB1D91038300758FB4 /* IHFTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3EA03DD1D91038300758FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3EA03C11D91038200758FB4 /* IHFTabBarController */;
+			targetProxy = D3EA03DC1D91038300758FB4 /* PBXContainerItemProxy */;
+		};
+		D3EA03E81D91038300758FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3EA03C11D91038200758FB4 /* IHFTabBarController */;
+			targetProxy = D3EA03E71D91038300758FB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3EA03CE1D91038200758FB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EA03CF1D91038200758FB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3EA03D31D91038300758FB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3EA03D41D91038300758FB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3EA03ED1D91038300758FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3EA03EE1D91038300758FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3EA03F01D91038300758FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IHFTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFTabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3EA03F11D91038300758FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IHFTabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFTabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3EA03F31D91038300758FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IHFTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFTabBarControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IHFTabBarController.app/IHFTabBarController";
+			};
+			name = Debug;
+		};
+		D3EA03F41D91038300758FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IHFTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFTabBarControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IHFTabBarController.app/IHFTabBarController";
+			};
+			name = Release;
+		};
+		D3EA03F61D91038300758FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IHFTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFTabBarControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IHFTabBarController;
+			};
+			name = Debug;
+		};
+		D3EA03F71D91038300758FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IHFTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IHEFE-COM.IHFTabBarControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IHFTabBarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3EA03BD1D91038200758FB4 /* Build configuration list for PBXProject "IHFTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EA03ED1D91038300758FB4 /* Debug */,
+				D3EA03EE1D91038300758FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3EA03EF1D91038300758FB4 /* Build configuration list for PBXNativeTarget "IHFTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EA03F01D91038300758FB4 /* Debug */,
+				D3EA03F11D91038300758FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3EA03F21D91038300758FB4 /* Build configuration list for PBXNativeTarget "IHFTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EA03F31D91038300758FB4 /* Debug */,
+				D3EA03F41D91038300758FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3EA03F51D91038300758FB4 /* Build configuration list for PBXNativeTarget "IHFTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3EA03F61D91038300758FB4 /* Debug */,
+				D3EA03F71D91038300758FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3EA03BA1D91038200758FB4 /* Project object */;
+}
